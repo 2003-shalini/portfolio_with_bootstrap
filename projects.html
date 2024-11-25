@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      href="/Users/shalini-tt0529/Desktop/Portfolio/bootstrap-4.0.0-dist/js/bootstrap.min.js"
+    ></script>
+    <style>
+      body {
+        background-color: white;
+        color: black;
+        padding-top: 56px;
+      }
+      .navbar {
+        background-color: #000000;
+      }
+      .navbar-nav .nav-item .nav-link {
+        color: white;
+        transition: color 0.3s, transform 0.3s;
+      }
+      .navbar-nav .nav-item .nav-link:hover {
+        color: #f8f9fa;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="56">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Simply Me</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="achievements.html">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h3 class="display-4">Projects</h3>
+      <p>
+        Here are some projects created by me so far.These projects have been
+        made using different technologies like Java,Python,PHP,Flask,MySQL
+        etc.So go through the project to know more about it
+      </p>
+      <p class="d-flex justify-content-center">
+        <button
+          class="btn btn-primary quote"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#quoteCollapse"
+          aria-expanded="false"
+          aria-controls="quoteCollapse"
+        >
+          Show Quote
+        </button>
+      </p>
+      <div class="collapse" id="quoteCollapse">
+        <div class="card card-body my-5">
+          "The only way to do great work is to love what you do." - Steve Jobs
+        </div>
+      </div>
+
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              Speech Emotion Recognition
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse show"
+          >
+            <div class="accordion-body">
+              <p>
+                Speech Emotion Recognition employs machine learning algorithms
+                to analyze voice recordings,extracting insightful features for
+                predicting the speakers emotion.By closely studying how people
+                speak,this technology becomes better at understanding and
+                interpreting different emotions,leading to more accurate
+                predictions of how someone is feeling.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              Gym Management System
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <p>
+                It is a simple web application with MySQL to manage a Gym.Users
+                can seamlessly create,retrieve,update and delete
+                records,ensuring efficient data management for gym.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              A Comparative Analysis of Social Network Epidemic Models
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <p>
+                This project explores the application of epidemic models
+                SIS,SI,SIR on various social network datasets,assessing
+                centrality measures and the impact of hyperparameters for
+                optimized information diffusion.These findings are valuable for
+                digital marketing strategies.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapsefour"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapsefour"
+            >
+              Context Aware SMS Spam Detection<span
+                class="badge text-bg-secondary mx-3"
+                >New</span
+              >
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapsefour"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <p>
+                This project focuses on detecting sms spam messages.Sms spam
+                messages usually annoy individuals.Attackers try to send spam
+                messages to people to trick them to perform any kind of attacks
+                like <abbr title="CrossSite Request Forgery">CSRF</abbr> and
+                <abbr title="Cross Site Scripting">XSS</abbr>.So this project
+                focuses on finding such spam messages using self attention
+                mechanism and rule based classfier.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- model -->
+    <div class="container text-center mt-5">
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-warning project-warning"
+        data-bs-toggle="modal"
+        data-bs-target="#warningProjectModal"
+      >
+        Warning
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="warningProjectModal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="warningProjectModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="warningProjectModalLabel">
+              Wooh!
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            You have got some opportunity to look at my projects.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center my-3">
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasWithBothOptions"
+        aria-controls="offcanvasWithBothOptions"
+      >
+        Message Me
+      </button>
+    </div>
+
+    <div
+      class="offcanvas offcanvas-start"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+          Leave a message here for me ...
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <textarea
+          class="form-control"
+          rows="5"
+          placeholder="Type your message here..."
+        ></textarea>
+        <button type="sumbit" class="btn btn-primary my-5">Send</button>
+      </div>
+    </div>
+    <div class="text-center">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+          <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+
+          <li class="breadcrumb-item" aria-current="page">
+            <a href="acheivements.html">Gallery</a>
+          </li>
+          <li class="breadcrumb-item" aria-current="page">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
